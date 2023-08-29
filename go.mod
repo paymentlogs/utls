@@ -7,6 +7,10 @@ require (
 	gitlab.com/yawning/bsaes.git v0.0.0-20190805113838-0a714cd429ec
 	gitlab.com/yawning/utls.git v0.0.12-1
 	golang.org/x/crypto v0.12.0
+	golang.org/x/net v0.10.0
 )
 
-require golang.org/x/sys v0.11.0 // indirect
+require (
+	golang.org/x/sys v0.11.0 // indirect
+	golang.org/x/text v0.12.0 // indirect
+)
